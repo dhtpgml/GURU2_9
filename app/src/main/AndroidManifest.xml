@@ -27,8 +27,23 @@
 			android:exported="true" />
 
 		<activity
+			android:name=".memberjoinsuccesactivity"
+			android:label="회원가입 성공"
+			android:exported="true" />
+
+		<activity
 			android:name=".MainActivity"
 			android:label="Home"
+			android:exported="true" />
+
+		<activity
+			android:name=".foodrouletteactivity"
+			android:label="랜덤 메뉴 룰렛"
+			android:exported="true" />
+
+		<activity
+			android:name=".shoppinglist_xactivity"
+			android:label="장바구니"
 			android:exported="true" />
 
 	</application>

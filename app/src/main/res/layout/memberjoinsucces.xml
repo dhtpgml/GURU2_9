@@ -1,20 +1,6 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!--
-    /*
-     *   This content is generated from the API File Info.
-     *   (Alt+Shift+Ctrl+I).
-     *
-     *   @desc
-     *   @file       memberjoinsucces
-     *   @date       Tuesday 25th of July 2023 02:01:13 AM
-     *   @title       Page 1
-     *   @author
-     *   @keywords
-     *   @generator    Export Kit v1.3.figma
-     *
-     */
-    -->
+
 	<ScrollView android:id="@+id/memberjoinsucces"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
@@ -37,6 +23,19 @@
 				android:layout_marginTop="150dp"
 				android:layout_width="211dp"
 				android:layout_height="291dp" />
+
+			<Button
+				android:id="@+id/loginback"
+				android:layout_width="221dp"
+				android:layout_height="wrap_content"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentTop="true"
+				android:layout_marginStart="70dp"
+				android:layout_marginTop="455dp"
+				android:background="@color/ellipse_2_color"
+				android:text="로그인 페이지로 이동하세요"
+				android:textColor="@color/white"
+				android:textStyle="bold" />
 
 		</RelativeLayout>
 

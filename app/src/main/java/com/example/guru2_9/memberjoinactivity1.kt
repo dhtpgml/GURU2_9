@@ -37,6 +37,9 @@ class memberjoinactivity1 : AppCompatActivity() {
             val email = editTextEmail.text.toString()
             val password = editTextPassword.text.toString()
 
+            // 계정 생성 버튼
+
+            createAccount(editTextEmail.text.toString() ,editTextPassword.text.toString())
         }
 
         //상단의 뒤로가기 아이콘 클릭시 로그인 화면으로 되돌아간다
@@ -44,12 +47,6 @@ class memberjoinactivity1 : AppCompatActivity() {
             val intent = Intent(this, loginactivity::class.java)
             startActivity(intent)
         }
-
-        // 계정 생성 버튼
-        buttonNext.setOnClickListener {
-            createAccount(editTextEmail.text.toString(),editTextPassword.text.toString())
-        }
-
     }
 
     private fun createAccount(email: String, password: String) {
@@ -61,6 +58,8 @@ class memberjoinactivity1 : AppCompatActivity() {
                         // 회원가입 성공 메시지 토스트로 출력
                         Toast.makeText(this, "계정 생성 완료.", Toast.LENGTH_SHORT).show()
 
+                        val intent = Intent(this, memberjoinsuccesactivity::class.java)
+                        startActivity(intent)
                     }
                     else {
                         Toast.makeText(this, "계정 생성 실패", Toast.LENGTH_SHORT).show()
