@@ -1,13 +1,13 @@
 package com.example.guru2_9
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
-class profileeditactivity : AppCompatActivity() {
-
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.profileedit_x)
+        setContentView(R.layout.activity_main)
+
 
     }
 }

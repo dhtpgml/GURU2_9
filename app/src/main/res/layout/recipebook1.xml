@@ -1,6 +1,20 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-
+	<!--
+    /*
+     *   This content is generated from the API File Info.
+     *   (Alt+Shift+Ctrl+I).
+     *
+     *   @desc
+     *   @file       recipebook1
+     *   @date       Tuesday 25th of July 2023 02:02:03 AM
+     *   @title       Page 1
+     *   @author
+     *   @keywords
+     *   @generator    Export Kit v1.3.figma
+     *
+     */
+    -->
 	<ScrollView android:id="@+id/recipebook1"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
@@ -17,39 +31,16 @@
 				android:layout_marginTop="0dp"
 				android:background="@drawable/_bg__recipebook1_shape" />
 
-			<View   android:id="@+id/rectangle_26"
-				android:background="@drawable/rectangle_26_shape"
-				android:layout_marginStart="47dp"
-				android:layout_marginTop="36dp"
-				android:layout_width="295dp"
-				android:layout_height="46dp" />
-
-			<ImageView android:id="@+id/backicon5"
-				android:src="@drawable/backicon5"
-				android:contentDescription="backicon5"
+			<ImageView
+				android:id="@+id/backicon5"
+				android:layout_width="14dp"
+				android:layout_height="wrap_content"
 				android:layout_marginStart="13dp"
 				android:layout_marginTop="44dp"
-				android:layout_width="27dp"
-				android:layout_height="27dp" />
-
-			<ImageView android:id="@+id/searchicon1"
-				android:src="@drawable/searchicon1"
-				android:contentDescription="searchicon1"
-				android:layout_marginStart="311dp"
-				android:layout_marginTop="51dp"
-				android:layout_width="17dp"
-				android:layout_height="17dp" />
-
-			<TextView android:id="@+id/t42ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/t42ttt_color"
-				android:layout_marginLeft="62dp"
-				android:layout_marginTop="50dp"
-				android:layout_width="182dp"
-				android:layout_height="24dp"
-				android:text="@string/t42ttt_string"
-				/>
+				android:clickable="true"
+				android:contentDescription="backicon5"
+				android:onClick="onBackIconClick"
+				android:src="@drawable/backicon5" />
 
 			<TextView android:id="@+id/f12ttt"
 				android:fontFamily="Noto Sans"
@@ -195,30 +186,38 @@
 				android:text="@string/t41ttt_string"
 				/>
 
-			<ImageView
-				android:id="@+id/__img___food12"
-				android:layout_width="88dp"
-				android:layout_height="88dp"
+			<ImageView android:id="@+id/__img___food12"
+				android:src="@drawable/__img___food12"
+				android:contentDescription="__img___food12"
 				android:layout_marginStart="27dp"
 				android:layout_marginTop="132dp"
-				android:contentDescription="__img___food12"
-				android:src="@drawable/__img___food12" />
+				android:layout_width="88dp"
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category12"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food11"
-				android:src="@drawable/__img___food11"
+				android:src="@drawable/__img___food10"
 				android:contentDescription="__img___food11"
 				android:layout_marginStart="244dp"
 				android:layout_marginTop="132dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category11"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food10"
-				android:src="@drawable/__img___food10"
+				android:src="@drawable/__img___food11"
 				android:contentDescription="__img___food10"
 				android:layout_marginStart="137dp"
 				android:layout_marginTop="132dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category10"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food9"
 				android:src="@drawable/__img___food9"
@@ -226,7 +225,10 @@
 				android:layout_marginStart="27dp"
 				android:layout_marginTop="260dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category9"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food8"
 				android:src="@drawable/__img___food8"
@@ -234,7 +236,10 @@
 				android:layout_marginStart="137dp"
 				android:layout_marginTop="260dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category8"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food7"
 				android:src="@drawable/__img___food7"
@@ -242,7 +247,10 @@
 				android:layout_marginStart="244dp"
 				android:layout_marginTop="260dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category7"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food6"
 				android:src="@drawable/__img___food6"
@@ -250,7 +258,10 @@
 				android:layout_marginStart="27dp"
 				android:layout_marginTop="388dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category6" /><!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food5"
 				android:src="@drawable/__img___food5"
@@ -258,7 +269,10 @@
 				android:layout_marginStart="137dp"
 				android:layout_marginTop="388dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category5"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food4"
 				android:src="@drawable/__img___food4"
@@ -266,7 +280,10 @@
 				android:layout_marginStart="244dp"
 				android:layout_marginTop="388dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category4"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food3"
 				android:src="@drawable/__img___food3"
@@ -274,7 +291,10 @@
 				android:layout_marginStart="27dp"
 				android:layout_marginTop="516dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category3"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food2"
 				android:src="@drawable/__img___food2"
@@ -282,7 +302,10 @@
 				android:layout_marginStart="137dp"
 				android:layout_marginTop="516dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category2"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
 			<ImageView android:id="@+id/__img___food1"
 				android:src="@drawable/__img___food1"
@@ -290,7 +313,11 @@
 				android:layout_marginStart="244dp"
 				android:layout_marginTop="516dp"
 				android:layout_width="88dp"
-				android:layout_height="88dp" />
+				android:layout_height="88dp"
+				android:clickable="true"
+				android:onClick="openRecipeList"
+				android:tag="category1"
+				/>
 
 		</RelativeLayout>
 

@@ -1,4 +1,4 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 
 	<ScrollView android:id="@+id/mainpage_x"
@@ -57,13 +57,14 @@
 				android:layout_width="404dp"
 				android:layout_height="172dp" />
 
-			<ImageView android:id="@+id/thumbnailtop5_2"
-				android:src="@drawable/thumbnailtop5_2"
-				android:contentDescription="thumbnailtop5_2"
+			<ImageView
+				android:id="@+id/thumbnailtop5_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:layout_marginStart="14dp"
 				android:layout_marginTop="1015dp"
-				android:layout_width="338dp"
-				android:layout_height="182dp" />
+				android:contentDescription="thumbnailtop5_2"
+				android:src="@drawable/thumbnailtop5_2" />
 
 			<ImageView android:id="@+id/bookmark6"
 				android:src="@drawable/bookmark6"
@@ -85,7 +86,8 @@
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="572dp"
 				android:layout_width="360dp"
-				android:layout_height="76dp" />
+				android:layout_height="38dp"
+				android:layout_alignParentBottom="true"/>
 
 			<TextView android:id="@+id/t38ttt"
 				android:fontFamily="Noto Sans"
@@ -255,7 +257,8 @@
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
 				android:layout_height="35dp"
-				android:clickable="true"/>
+				android:clickable="true"
+				android:layout_alignParentBottom="true"/>
 
 			<ImageView android:id="@+id/mypageicon_black"
 				android:src="@drawable/mypageicon_black"
@@ -264,7 +267,8 @@
 				android:layout_marginTop="583dp"
 				android:layout_width="34dp"
 				android:layout_height="34dp"
-				android:clickable="true"/>
+				android:clickable="true"
+				android:layout_alignParentBottom="true"/>
 
 			<ImageView android:id="@+id/rouletteicon_black"
 				android:src="@drawable/rouletteicon_black"
@@ -273,7 +277,8 @@
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
 				android:layout_height="35dp"
-				android:clickable="true"/>
+				android:clickable="true"
+				android:layout_alignParentBottom="true"/>
 
 			<ImageView android:id="@+id/shoppinglisticon_black"
 				android:src="@drawable/shoppinglisticon_black"
@@ -282,7 +287,8 @@
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
 				android:layout_height="35dp"
-				android:clickable="true"/>
+				android:clickable="true"
+				android:layout_alignParentBottom="true"/>
 
 			<ImageView android:id="@+id/recipebookicon_black"
 				android:src="@drawable/recipebookicon_black"
@@ -291,7 +297,8 @@
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
 				android:layout_height="35dp"
-				android:clickable="true"/>
+				android:clickable="true"
+				android:layout_alignParentBottom="true"/>
 
 			<ImageView android:id="@+id/vector_2"
 				android:src="@drawable/vector_2"
@@ -304,4 +311,4 @@
 		</RelativeLayout>
 
 	</ScrollView>
-</HorizontalScrollView>
+</ScrollView>

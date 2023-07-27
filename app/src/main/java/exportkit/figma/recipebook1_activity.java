@@ -69,10 +69,10 @@ import com.example.guru2_9.R;
 
 		
 		_bg__recipebook1 = (View) findViewById(R.id._bg__recipebook1);
-		rectangle_26 = (View) findViewById(R.id.rectangle_26);
+
 		backicon5 = (ImageView) findViewById(R.id.backicon5);
-		searchicon1 = (ImageView) findViewById(R.id.searchicon1);
-		t42ttt = (TextView) findViewById(R.id.t42ttt);
+
+
 		f12ttt = (TextView) findViewById(R.id.f12ttt);
 		f11ttt = (TextView) findViewById(R.id.f11ttt);
 		f10ttt = (TextView) findViewById(R.id.f10ttt);

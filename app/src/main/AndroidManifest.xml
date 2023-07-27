@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
 	package="com.example.guru2_9">
 
 
@@ -8,12 +9,13 @@
 	<application
 		android:allowBackup="true"
 		android:theme="@style/AppTheme"
-		android:label="page 1" >
+		android:label="page 1"
+		tools:ignore="MissingApplicationIcon">
 
 		<activity
 			android:name=".loginactivity"
 			android:configChanges="orientation|keyboardHidden|screenSize"
-			android:label="login"
+			android:label="로그인 페이지"
 			android:exported="true"  >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
@@ -23,9 +25,13 @@
 
 		<activity
 			android:name=".memberjoinactivity1"
-			android:label="join"
+			android:label="회원가입 페이지"
 			android:exported="true" />
 
+		<activity
+			android:name=".MainActivity"
+			android:label="Home"
+			android:exported="true" />
 
 		<activity
 			android:name=".mainpage_x_activity"
@@ -34,7 +40,12 @@
 
 		<activity
 			android:name=".recipebook1activity"
-			android:label="recipe_book"
+			android:label="recipebook"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipebook2_xactivity"
+			android:label="recipebook2"
 			android:exported="true" />
 
 		<activity
@@ -43,25 +54,102 @@
 			android:exported="true" />
 
 		<activity
-			android:name=".foodrouletteactivity"
-			android:label="food_roulette"
-			android:exported="true" />
-
-		<activity
-			android:name=".memberjoinsuccesactivity"
-			android:label="succes"
-			android:exported="true" />
-
-		<activity
 			android:name=".mypage_activity"
 			android:label="mypage"
 			android:exported="true" />
 
 		<activity
-			android:name=".profileeditactivity"
-			android:label="profile_edit"
+			android:name=".foodrouletteactivity"
+			android:label="foodroulette"
 			android:exported="true" />
+
+		<activity
+			android:name=".memberjoinsuccesactivity"
+			android:label="회원가입 성공 페이지"
+			android:exported="true" />
+
+
+		<activity
+			android:name=".recipeactivity1"
+			android:label="레시피페이지1"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity2"
+			android:label="레시피페이지2"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity3"
+			android:label="레시피페이지3"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity4"
+			android:label="레시피페이지4"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity5"
+			android:label="레시피페이지5"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity6"
+			android:label="레시피페이지6"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity7"
+			android:label="레시피페이지7"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity8"
+			android:label="레시피페이지8"
+			android:exported="true" />
+		<activity
+			android:name=".recipeactivity9"
+			android:label="레시피페이지9"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity10"
+			android:label="레시피페이지10"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity11"
+			android:label="레시피페이지11"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipeactivity12"
+			android:label="레시피페이지12"
+			android:exported="true" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	</application>
 
 </manifest>
+

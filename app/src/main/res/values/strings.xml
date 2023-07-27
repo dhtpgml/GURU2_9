@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!-- profileedit_x strings -->
+    <!-- profileedit_x strings -->
 
-	<string name="app_name">Page 1</string>
-	<string name="ek_img_content">ExportKit Image</string>
-	<string name="t58ttt_string"> </string>
-	<string name="t57ttt_string"></string>
-	<string name="t56ttt_string">  </string>
-	<string name="t55ttt_string"></string>
-	<string name="t54ttt_string"> </string>
-	<string name="t53ttt_string"> </string>
-	<string name="t4ttt_string"> </string>
-	<string name="t3ttt_string"> </string>
-	<string name="t2ttt_string"> </string>
-	<string name="t1ttt_string"> </string>
-	<string name="t38ttt_string"> </string>
-	<string name="t37ttt_string"> </string>
-	<string name="t36ttt_string"> </string>
-	<string name="t6ttt_string"> </string>
-	<string name="t7ttt_string"> </string>
-	<string name="t8ttt_string"> </string>
-	<string name="t9ttt_string"> </string>
-	<string name="t10ttt_string"> </string>
-	<string name="t11ttt_string"> </string>
-	<string name="t12ttt_string"> </string>
-	<string name="t13ttt_string"> </string>
-	<string name="t14ttt_string"> </string>
-	<string name="hometext_black_string"> </string>
-	<string name="recipebooktext_black_string"> </string>
-	<string name="shoppinglisttext_black_string"> </string>
-	<string name="roulettetext_black_string"> </string>
-	<string name="mypagetext_black_string"> </string>
-	<string name="t20ttt_string"> </string>
-	<string name="t19ttt_string"> </string>
-	<string name="t18ttt_string"> </string>
-	<string name="t17ttt_string"> </string>
-	<string name="t16ttt_string"> </string>
-	<string name="t15ttt_string"> </string>
+    <string name="app_name">Page 1</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="t58ttt_string"> </string>
+    <string name="t57ttt_string"></string>
+    <string name="t56ttt_string">  </string>
+    <string name="t55ttt_string"></string>
+    <string name="t54ttt_string"> </string>
+    <string name="t53ttt_string"> </string>
+    <string name="t4ttt_string"> </string>
+    <string name="t3ttt_string"> </string>
+    <string name="t2ttt_string"> </string>
+    <string name="t1ttt_string"> </string>
+    <string name="t38ttt_string"> </string>
+    <string name="t37ttt_string"> </string>
+    <string name="t36ttt_string"> </string>
+    <string name="t6ttt_string"> </string>
+    <string name="t7ttt_string"> </string>
+    <string name="t8ttt_string"> </string>
+    <string name="t9ttt_string"> </string>
+    <string name="t10ttt_string"> </string>
+    <string name="t11ttt_string"> </string>
+    <string name="t12ttt_string"> </string>
+    <string name="t13ttt_string"> </string>
+    <string name="t14ttt_string"> </string>
+    <string name="hometext_black_string"> </string>
+    <string name="recipebooktext_black_string"> </string>
+    <string name="shoppinglisttext_black_string"> </string>
+    <string name="roulettetext_black_string"> </string>
+    <string name="mypagetext_black_string"> </string>
+    <string name="t20ttt_string"> </string>
+    <string name="t19ttt_string"> </string>
+    <string name="t18ttt_string"> </string>
+    <string name="t17ttt_string"> </string>
+    <string name="t16ttt_string"> </string>
+    <string name="t15ttt_string"> </string>
 
-	<string name="t33ttt_string"> </string>
-	<string name="t32ttt_string"> </string>
-	<string name="t31ttt_string"> </string>
-	<string name="t30ttt_string"> </string>
-	<string name="t29ttt_string"> </string>
-	<string name="t28ttt_string"> </string>
-	<string name="t27ttt_string"> </string>
-	<string name="t26ttt_string"> </string>
-	<string name="t25ttt_string"> </string>
-	<string name="t24ttt_string"> </string>
-	<string name="t23ttt_string"> </string>
-	<string name="t22ttt_string"> </string>
-	<string name="t21ttt_string"> </string>
-
-
-	<string name="t52ttt_string"> </string>
-	<string name="t51ttt_string"> </string>
-	<string name="t50ttt_string"> </string>
-	<string name="t49ttt_string"> </string>
-	<string name="t48ttt_string"> </string>
-	<string name="t47ttt_string"> </string>
-	<string name="t46ttt_string"> </string>
-	<string name="t45ttt_string"> </string>
-	<string name="t44ttt_string"> </string>
-	<string name="t43ttt_string"> </string>
-	<string name="t42ttt_string"> </string>
-	<string name="t41ttt_string"> </string>
-	<string name="t40ttt_string"> </string>
+    <string name="t33ttt_string"> </string>
+    <string name="t32ttt_string"> </string>
+    <string name="t31ttt_string"> </string>
+    <string name="t30ttt_string"> </string>
+    <string name="t29ttt_string"> </string>
+    <string name="t28ttt_string"> </string>
+    <string name="t27ttt_string"> </string>
+    <string name="t26ttt_string"> </string>
+    <string name="t25ttt_string"> </string>
+    <string name="t24ttt_string"> </string>
+    <string name="t23ttt_string"> </string>
+    <string name="t22ttt_string"> </string>
+    <string name="t21ttt_string"> </string>
 
 
+    <string name="t52ttt_string"> </string>
+    <string name="t51ttt_string"> </string>
+    <string name="t50ttt_string"> </string>
+    <string name="t49ttt_string"> </string>
+    <string name="t48ttt_string"> </string>
+    <string name="t47ttt_string"> </string>
+    <string name="t46ttt_string"> </string>
+    <string name="t45ttt_string"> </string>
+    <string name="t44ttt_string"> </string>
+    <string name="t43ttt_string"> </string>
+    <string name="t42ttt_string"> </string>
+    <string name="t41ttt_string"> </string>
+    <string name="t40ttt_string"> </string>
 
 
-	<string name="f12ttt_string"> </string>
-	<string name="f11ttt_string"> </string>
-	<string name="f10ttt_string"> </string>
-	<string name="f9ttt_string"> </string>
-	<string name="f8ttt_string"> </string>
-	<string name="f7ttt_string"> </string>
-	<string name="f6ttt_string"> </string>
-	<string name="f5ttt_string"> </string>
-	<string name="f4ttt_string"> </string>
-	<string name="f3ttt_string"> </string>
-	<string name="f2ttt_string"> </string>
-	<string name="f1ttt_string"> </string>
+    <string name="f12ttt_string"> </string>
+    <string name="f11ttt_string"> </string>
+    <string name="f10ttt_string"> </string>
+    <string name="f9ttt_string"> </string>
+    <string name="f8ttt_string"> </string>
+    <string name="f7ttt_string"> </string>
+    <string name="f6ttt_string"> </string>
+    <string name="f5ttt_string"> </string>
+    <string name="f4ttt_string"> </string>
+    <string name="f3ttt_string"> </string>
+    <string name="f2ttt_string"> </string>
+    <string name="f1ttt_string"> </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
