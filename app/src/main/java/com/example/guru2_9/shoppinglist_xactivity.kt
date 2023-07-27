@@ -14,6 +14,39 @@ class shoppinglist_xactivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.shoppinglist_x)
 
+        // 이미지뷰를 찾아서 클릭 리스너 설정
+        val iconImageView1 = findViewById<ImageView>(R.id.homeicon_black2)
+        iconImageView1.setOnClickListener {
+            // 클릭 이벤트가 발생했을 때 실행될 코드
+            // 다른 액티비티로 전환하는 코드 작성
+            val intent = Intent(this, mainpage_x_activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView2: ImageView = findViewById<ImageView>(R.id.recipebookicon_black2)
+        iconImageView2.setOnClickListener {
+            val intent = Intent(this, recipebook1activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView3: ImageView = findViewById<ImageView>(R.id.shoppinglisticon_black2)
+        iconImageView3.setOnClickListener {
+            val intent = Intent(this, shoppinglist_xactivity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView4: ImageView = findViewById<ImageView>(R.id.mypageicon_black2)
+        iconImageView4.setOnClickListener {
+            val intent = Intent(this, mypage_activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView5: ImageView = findViewById<ImageView>(R.id.rouletteicon_black2)
+        iconImageView5.setOnClickListener {
+            val intent = Intent(this, foodrouletteactivity::class.java)
+            startActivity(intent)
+        }
+
         val imageView1 = findViewById<ImageView>(R.id.__img___t39)
         val backicon4 = findViewById<ImageView>(R.id.backicon4)
 
@@ -24,7 +57,7 @@ class shoppinglist_xactivity : AppCompatActivity() {
 
         //뒤로가기(메인페이지로 이동)
         backicon4.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, mainpage_x_activity::class.java)
             startActivity(intent)
         }
     }

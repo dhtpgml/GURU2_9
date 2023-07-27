@@ -1,20 +1,6 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!--
-    /*
-     *   This content is generated from the API File Info.
-     *   (Alt+Shift+Ctrl+I).
-     *
-     *   @desc
-     *   @file       mypage
-     *   @date       Tuesday 25th of July 2023 02:02:37 AM
-     *   @title       Page 1
-     *   @author
-     *   @keywords
-     *   @generator    Export Kit v1.3.figma
-     *
-     */
-    -->
+
 	<ScrollView android:id="@+id/mypage"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
@@ -44,7 +30,7 @@
 				android:layout_width="65dp"
 				android:layout_height="25dp" />
 
-			<TextView android:id="@+id/t52ttt"
+			<TextView android:id="@+id/bookmark_black"
 				android:fontFamily="Noto Sans"
 				android:textStyle="bold"
 				android:textSize="16sp"
@@ -53,10 +39,10 @@
 				android:layout_marginTop="268dp"
 				android:layout_width="66dp"
 				android:layout_height="33dp"
-				android:text="@string/t52ttt_string"
+				android:text="북마크"
 				/>
 
-			<TextView android:id="@+id/t51ttt"
+			<TextView android:id="@+id/profilename_black"
 				android:fontFamily="Noto Sans"
 				android:textStyle="bold"
 				android:textSize="16sp"
@@ -65,7 +51,7 @@
 				android:layout_marginTop="118dp"
 				android:layout_width="66dp"
 				android:layout_height="33dp"
-				android:text="@string/t51ttt_string"
+				android:text="이름"
 				/>
 
 			<TextView android:id="@+id/t50ttt"
@@ -80,7 +66,7 @@
 				android:text="@string/t50ttt_string"
 				/>
 
-			<TextView android:id="@+id/t49ttt"
+			<TextView android:id="@+id/hello_my"
 				android:fontFamily="Noto Sans"
 				android:textSize="12sp"
 				android:textColor="@color/t52ttt_color"
@@ -88,7 +74,7 @@
 				android:layout_marginTop="122dp"
 				android:layout_width="90dp"
 				android:layout_height="24dp"
-				android:text="@string/t49ttt_string"
+				android:text="님 안녕하세요!"
 				/>
 
 			<TextView android:id="@+id/t48ttt"
@@ -110,7 +96,7 @@
 				android:layout_width="27dp"
 				android:layout_height="27dp" />
 
-			<TextView android:id="@+id/t47ttt"
+			<TextView android:id="@+id/mypagetext_black"
 				android:fontFamily="Noto Sans"
 				android:textStyle="bold"
 				android:textSize="16sp"
@@ -119,7 +105,7 @@
 				android:layout_marginTop="46dp"
 				android:layout_width="95dp"
 				android:layout_height="33dp"
-				android:text="@string/t47ttt_string"
+				android:text="마이페이지"
 				/>
 
 			<View   android:id="@+id/rectangle_34"
@@ -129,19 +115,19 @@
 				android:layout_width="69dp"
 				android:layout_height="26dp" />
 
-			<TextView android:id="@+id/t46ttt"
-				android:fontFamily="Noto Sans"
-				android:textStyle="bold"
-				android:textSize="12sp"
-				android:textColor="@color/_bg__mypage_color"
-				android:layout_marginLeft="197dp"
-				android:layout_marginTop="190dp"
+			<TextView
+				android:id="@+id/profileedit_black"
 				android:layout_width="76dp"
 				android:layout_height="24dp"
-				android:text="@string/t46ttt_string"
-				/>
+				android:layout_marginLeft="197dp"
+				android:layout_marginTop="190dp"
+				android:fontFamily="Noto Sans"
+				android:text="프로필 편집"
+				android:textColor="@color/_bg__mypage_color"
+				android:textSize="12sp"
+				android:textStyle="bold" />
 
-			<TextView android:id="@+id/t45ttt"
+			<TextView android:id="@+id/logout_black"
 				android:fontFamily="Noto Sans"
 				android:textStyle="bold"
 				android:textSize="14sp"
@@ -150,10 +136,10 @@
 				android:layout_marginTop="666dp"
 				android:layout_width="71dp"
 				android:layout_height="29dp"
-				android:text="@string/t45ttt_string"
+				android:text="로그아웃"
 				/>
 
-			<TextView android:id="@+id/t44ttt"
+			<TextView android:id="@+id/quit_black"
 				android:fontFamily="Noto Sans"
 				android:textStyle="bold"
 				android:textSize="14sp"
@@ -162,7 +148,7 @@
 				android:layout_marginTop="688dp"
 				android:layout_width="71dp"
 				android:layout_height="29dp"
-				android:text="@string/t44ttt_string"
+				android:text="탈퇴하기"
 				/>
 
 			<View   android:id="@+id/rectangle_35"

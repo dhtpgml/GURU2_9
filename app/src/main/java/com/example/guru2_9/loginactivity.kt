@@ -39,7 +39,7 @@ class loginactivity : AppCompatActivity() {
                         Toast.makeText(this, "로그인 성공!", Toast.LENGTH_SHORT).show()
 
                         //토스트 메시지 띄우고, 메인페이지(홈)으로 화면 전환
-                        val intent = Intent(this, MainActivity::class.java)
+                        val intent = Intent(this, mainpage_x_activity::class.java)
                         startActivity(intent)
                     }
                     else {

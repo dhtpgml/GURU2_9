@@ -11,10 +11,10 @@
 		android:label="page 1" >
 
 		<activity
-		android:name=".loginactivity"
-		android:configChanges="orientation|keyboardHidden|screenSize"
-		android:label="로그인 페이지"
-		android:exported="true"  >
+			android:name=".loginactivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="login"
+			android:exported="true"  >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -23,31 +23,45 @@
 
 		<activity
 			android:name=".memberjoinactivity1"
-			android:label="회원가입 페이지"
+			android:label="join"
+			android:exported="true" />
+
+
+		<activity
+			android:name=".mainpage_x_activity"
+			android:label="Main"
 			android:exported="true" />
 
 		<activity
-			android:name=".memberjoinsuccesactivity"
-			android:label="회원가입 성공"
-			android:exported="true" />
-
-		<activity
-			android:name=".MainActivity"
-			android:label="Home"
-			android:exported="true" />
-
-		<activity
-			android:name=".foodrouletteactivity"
-			android:label="랜덤 메뉴 룰렛"
+			android:name=".recipebook1activity"
+			android:label="recipe_book"
 			android:exported="true" />
 
 		<activity
 			android:name=".shoppinglist_xactivity"
-			android:label="장바구니"
+			android:label="shopping"
+			android:exported="true" />
+
+		<activity
+			android:name=".foodrouletteactivity"
+			android:label="food_roulette"
+			android:exported="true" />
+
+		<activity
+			android:name=".memberjoinsuccesactivity"
+			android:label="succes"
+			android:exported="true" />
+
+		<activity
+			android:name=".mypage_activity"
+			android:label="mypage"
+			android:exported="true" />
+
+		<activity
+			android:name=".profileeditactivity"
+			android:label="profile_edit"
 			android:exported="true" />
 
 	</application>
 
 </manifest>
-	
-	

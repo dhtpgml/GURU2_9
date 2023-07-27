@@ -57,18 +57,14 @@ import com.example.guru2_9.R;
 		
 		_bg__mypage = (View) findViewById(R.id._bg__mypage);
 		ellipse_3 = (View) findViewById(R.id.ellipse_3);
-		rectangle_36 = (View) findViewById(R.id.rectangle_36);
-		t52ttt = (TextView) findViewById(R.id.t52ttt);
-		t51ttt = (TextView) findViewById(R.id.t51ttt);
+
 		t50ttt = (TextView) findViewById(R.id.t50ttt);
-		t49ttt = (TextView) findViewById(R.id.t49ttt);
+
 		t48ttt = (TextView) findViewById(R.id.t48ttt);
 		backicon8 = (ImageView) findViewById(R.id.backicon8);
-		t47ttt = (TextView) findViewById(R.id.t47ttt);
+
 		rectangle_34 = (View) findViewById(R.id.rectangle_34);
-		t46ttt = (TextView) findViewById(R.id.t46ttt);
-		t45ttt = (TextView) findViewById(R.id.t45ttt);
-		t44ttt = (TextView) findViewById(R.id.t44ttt);
+
 		rectangle_35 = (View) findViewById(R.id.rectangle_35);
 		rectangle_342 = (View) findViewById(R.id.rectangle_342);
 		myicon = (ImageView) findViewById(R.id.myicon);

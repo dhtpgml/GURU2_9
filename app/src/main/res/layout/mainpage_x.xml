@@ -1,20 +1,6 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		mainpage_x
-	 *	@date 		Tuesday 25th of July 2023 02:37:02 AM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
+
 	<ScrollView android:id="@+id/mainpage_x"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
@@ -268,7 +254,8 @@
 				android:layout_marginStart="19dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
-				android:layout_height="35dp" />
+				android:layout_height="35dp"
+				android:clickable="true"/>
 
 			<ImageView android:id="@+id/mypageicon_black"
 				android:src="@drawable/mypageicon_black"
@@ -276,7 +263,8 @@
 				android:layout_marginStart="302dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="34dp"
-				android:layout_height="34dp" />
+				android:layout_height="34dp"
+				android:clickable="true"/>
 
 			<ImageView android:id="@+id/rouletteicon_black"
 				android:src="@drawable/rouletteicon_black"
@@ -284,7 +272,8 @@
 				android:layout_marginStart="158dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
-				android:layout_height="35dp" />
+				android:layout_height="35dp"
+				android:clickable="true"/>
 
 			<ImageView android:id="@+id/shoppinglisticon_black"
 				android:src="@drawable/shoppinglisticon_black"
@@ -292,7 +281,8 @@
 				android:layout_marginStart="232dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
-				android:layout_height="35dp" />
+				android:layout_height="35dp"
+				android:clickable="true"/>
 
 			<ImageView android:id="@+id/recipebookicon_black"
 				android:src="@drawable/recipebookicon_black"
@@ -300,7 +290,8 @@
 				android:layout_marginStart="92dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
-				android:layout_height="35dp" />
+				android:layout_height="35dp"
+				android:clickable="true"/>
 
 			<ImageView android:id="@+id/vector_2"
 				android:src="@drawable/vector_2"

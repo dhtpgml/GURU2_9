@@ -1,20 +1,20 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!--
-    /*
-     *   This content is generated from the API File Info.
-     *   (Alt+Shift+Ctrl+I).
-     *
-     *   @desc
-     *   @file       memberjoin2
-     *   @date       Tuesday 25th of July 2023 02:00:35 AM
-     *   @title       Page 1
-     *   @author
-     *   @keywords
-     *   @generator    Export Kit v1.3.figma
-     *
-     */
-    -->
+     /*
+      *   This content is generated from the API File Info.
+      *   (Alt+Shift+Ctrl+I).
+      *
+      *   @desc
+      *   @file       memberjoin2
+      *   @date       Tuesday 25th of July 2023 02:00:35 AM
+      *   @title       Page 1
+      *   @author
+      *   @keywords
+      *   @generator    Export Kit v1.3.figma
+      *
+      */
+     -->
 	<ScrollView android:id="@+id/memberjoin2"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
@@ -55,7 +55,7 @@
 				android:layout_marginTop="47dp"
 				android:layout_width="150dp"
 				android:layout_height="33dp"
-				android:text="@string/t20ttt_string"
+				android:text="회원가입하기 (2/3)"
 				/>
 
 			<TextView android:id="@+id/t19ttt"
@@ -67,7 +67,7 @@
 				android:layout_marginTop="192dp"
 				android:layout_width="85dp"
 				android:layout_height="33dp"
-				android:text="@string/t19ttt_string"
+				android:text="약관 동의"
 				/>
 
 			<TextView android:id="@+id/t18ttt"
@@ -79,7 +79,7 @@
 				android:layout_marginTop="233dp"
 				android:layout_width="101dp"
 				android:layout_height="24dp"
-				android:text="@string/t18ttt_string"
+				android:text="전체 동의합니다."
 				/>
 
 			<TextView android:id="@+id/t17ttt"
@@ -90,7 +90,7 @@
 				android:layout_marginTop="267dp"
 				android:layout_width="147dp"
 				android:layout_height="24dp"
-				android:text="@string/t17ttt_string"
+				android:text="만 14세 이상입니다. (필수)"
 				/>
 
 			<TextView android:id="@+id/t16ttt"
@@ -101,7 +101,7 @@
 				android:layout_marginTop="301dp"
 				android:layout_width="127dp"
 				android:layout_height="24dp"
-				android:text="@string/t16ttt_string"
+				android:text="서비스 이용약관(필수)"
 				/>
 
 			<TextView android:id="@+id/t15ttt"
@@ -112,8 +112,57 @@
 				android:layout_marginTop="335dp"
 				android:layout_width="181dp"
 				android:layout_height="24dp"
-				android:text="@string/t15ttt_string"
+				android:text="개인정보 수집 및 이용 동의(필수)"
 				/>
+
+
+			<CheckBox
+				android:id="@+id/checkBoxAgreeAll"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="전체 동의합니다."
+				android:layout_marginLeft="63dp"
+				android:layout_marginTop="233dp"/>
+
+			<CheckBox
+				android:id="@+id/checkBoxOver14"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="만 14세 이상입니다. (필수)"
+				android:layout_marginLeft="63dp"
+				android:layout_marginTop="267dp" />
+
+			<CheckBox
+				android:id="@+id/checkBoxServiceAgreement"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="서비스 이용약관(필수)"
+				android:layout_marginLeft="63dp"
+				android:layout_marginTop="301dp" />
+
+			<CheckBox
+				android:id="@+id/checkBoxPrivacyPolicy"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="개인정보 수집 및 이용 동의(필수)"
+				android:layout_marginLeft="63dp"
+				android:layout_marginTop="335dp" />
+
+
+
+			<Button
+				android:id="@+id/__img___nexticon2"
+				android:layout_width="79dp"
+				android:layout_height="46dp"
+				android:layout_marginStart="224dp"
+				android:layout_marginTop="527dp"
+				android:background="@color/rectangle_3_color"
+				android:contentDescription="__img___nexticon2"
+				android:text="다음"
+				android:textColor="@color/white"
+				android:textStyle="bold"
+				tools:ignore="DuplicateIds" />
+
 
 			<View   android:id="@+id/rectangle_12"
 				android:background="@drawable/rectangle_12_shape"

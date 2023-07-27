@@ -5,52 +5,44 @@
 
 	<RelativeLayout
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content">
-
-		<ImageView
-			android:id="@+id/background"
-			android:layout_width="360dp"
-			android:layout_height="500dp"
-			android:layout_marginStart="1dp"
-			android:layout_marginTop="143dp"
-			android:contentDescription="background"
-			android:src="@drawable/background" />
+		android:layout_height="650dp"
+		android:background="#FCF29B">
 
 		<ImageView
 			android:id="@+id/backicon4"
-			android:src="@drawable/backicon4"
-			android:contentDescription="backicon4"
+			android:layout_width="27dp"
+			android:layout_height="27dp"
 			android:layout_marginStart="13dp"
 			android:layout_marginTop="44dp"
-			android:layout_width="27dp"
-			android:layout_height="27dp" />
+			android:contentDescription="backicon4"
+			android:src="@drawable/backicon4" />
 
 		<ImageView
 			android:id="@+id/__img___t40"
-			android:src="@drawable/__img___t40"
-			android:contentDescription="__img___t40"
-			android:layout_marginStart="112dp"
-			android:layout_marginTop="46dp"
 			android:layout_width="135dp"
-			android:layout_height="77dp" />
+			android:layout_height="77dp"
+			android:layout_marginStart="130dp"
+			android:layout_marginTop="46dp"
+			android:contentDescription="__img___t40"
+			android:src="@drawable/__img___t40" />
 
 		<ImageView
 			android:id="@+id/memopad"
-			android:src="@drawable/memopad"
-			android:contentDescription="memopad"
-			android:layout_marginStart="-46dp"
-			android:layout_marginTop="164dp"
 			android:layout_width="442dp"
-			android:layout_height="442dp" />
+			android:layout_height="442dp"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="130dp"
+			android:contentDescription="memopad"
+			android:src="@drawable/memopad" />
 
 		<ImageView
 			android:id="@+id/__img___t39"
-			android:src="@drawable/__img___t39"
-			android:contentDescription="__img___t39"
-			android:layout_marginStart="244dp"
-			android:layout_marginTop="533dp"
 			android:layout_width="65dp"
-			android:layout_height="38dp" />
+			android:layout_height="38dp"
+			android:layout_marginStart="270dp"
+			android:layout_marginTop="500dp"
+			android:contentDescription="__img___t39"
+			android:src="@drawable/__img___t39" />
 
 		<EditText
 			android:id="@+id/textView1"
@@ -58,11 +50,61 @@
 			android:layout_height="267dp"
 			android:layout_alignParentStart="true"
 			android:layout_alignParentTop="true"
-			android:layout_marginStart="30dp"
-			android:layout_marginTop="258dp"
+			android:layout_marginStart="60dp"
+			android:layout_marginTop="227dp"
 			android:hint="여기에 재료를 기록하세요."
 			android:textColor="@color/black"
 			android:textSize="12sp" />
+
+		<ImageView
+			android:id="@+id/homeicon_black2"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:layout_marginStart="25dp"
+			android:layout_marginTop="560dp"
+			android:clickable="true"
+			android:contentDescription="homeicon_black"
+			android:src="@drawable/homeicon_black" />
+
+		<ImageView
+			android:id="@+id/mypageicon_black2"
+			android:layout_width="34dp"
+			android:layout_height="34dp"
+			android:layout_marginStart="340dp"
+			android:layout_marginTop="560dp"
+			android:clickable="true"
+			android:contentDescription="mypageicon_black"
+			android:src="@drawable/mypageicon_black" />
+
+		<ImageView
+			android:id="@+id/rouletteicon_black2"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:layout_marginStart="185dp"
+			android:layout_marginTop="560dp"
+			android:clickable="true"
+			android:contentDescription="rouletteicon_black"
+			android:src="@drawable/rouletteicon_black" />
+
+		<ImageView
+			android:id="@+id/shoppinglisticon_black2"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:layout_marginStart="265dp"
+			android:layout_marginTop="560dp"
+			android:clickable="true"
+			android:contentDescription="shoppinglisticon_black"
+			android:src="@drawable/shoppinglisticon_black" />
+
+		<ImageView
+			android:id="@+id/recipebookicon_black2"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:layout_marginStart="105dp"
+			android:layout_marginTop="560dp"
+			android:clickable="true"
+			android:contentDescription="recipebookicon_black"
+			android:src="@drawable/recipebookicon_black" />
 
 	</RelativeLayout>
 

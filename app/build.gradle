@@ -36,6 +36,8 @@ android {
 dependencies {
 
     implementation platform('com.google.firebase:firebase-bom:32.2.0')
+    // Google Play Services의 Location 라이브러리 추가
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.2.0'

@@ -42,7 +42,6 @@ import com.example.guru2_9.R;
 		setContentView(R.layout.shoppinglist_x);
 
 
-		background = (ImageView) findViewById(R.id.background);
 		backicon4 = (ImageView) findViewById(R.id.backicon4);
 		__img___t40 = (ImageView) findViewById(R.id.__img___t40);
 		memopad = (ImageView) findViewById(R.id.memopad);
