@@ -54,17 +54,12 @@ import com.example.guru2_9.R;
 		
 		_bg__profileedit_x = (View) findViewById(R.id._bg__profileedit_x);
 		rectangle_42 = (View) findViewById(R.id.rectangle_42);
-		rectangle_41 = (View) findViewById(R.id.rectangle_41);
 		rectangle_40 = (View) findViewById(R.id.rectangle_40);
 		rectangle_39 = (View) findViewById(R.id.rectangle_39);
 		backicon9 = (ImageView) findViewById(R.id.backicon9);
 		t58ttt = (TextView) findViewById(R.id.t58ttt);
 		rectangle_38 = (View) findViewById(R.id.rectangle_38);
 		t57ttt = (TextView) findViewById(R.id.t57ttt);
-		t56ttt = (TextView) findViewById(R.id.t56ttt);
-		t55ttt = (TextView) findViewById(R.id.t55ttt);
-		t54ttt = (TextView) findViewById(R.id.t54ttt);
-		t53ttt = (TextView) findViewById(R.id.t53ttt);
 		myicon2 = (ImageView) findViewById(R.id.myicon2);
 	
 		

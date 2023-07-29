@@ -1,6 +1,8 @@
 package com.example.guru2_9
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.view.animation.Animation
 import android.view.animation.RotateAnimation
 import android.widget.ImageView
@@ -12,6 +14,7 @@ class foodrouletteactivity : AppCompatActivity() {
     private lateinit var rouletteImageView: ImageView
     private lateinit var menuImageView: ImageView
     private var isSpinning: Boolean = false
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +28,47 @@ class foodrouletteactivity : AppCompatActivity() {
                 startSpinAnimation()
             }
         }
+
+        // 뒤로 가기 버튼 클릭 시 이벤트 처리
+        val backButton = findViewById<ImageView>(R.id.backicon7)
+        backButton.setOnClickListener {
+            onBackPressed() // 뒤로 가기 기능 실행
+        }
+
+        // 이미지뷰를 찾아서 클릭 리스너 설정
+        val iconImageView1 = findViewById<ImageView>(R.id.homeicon_black1)
+        iconImageView1.setOnClickListener {
+
+            // 클릭 이벤트가 발생했을 때 실행될 코드
+            // 다른 액티비티로 전환하는 코드 작성
+            val intent = Intent(this, mainpage_x_activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView2: ImageView = findViewById<ImageView>(R.id.recipebookicon_black1)
+        iconImageView2.setOnClickListener {
+            val intent = Intent(this, recipebook1activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView3: ImageView = findViewById<ImageView>(R.id.shoppinglisticon_black1)
+        iconImageView3.setOnClickListener {
+            val intent = Intent(this, shoppinglist_xactivity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView4: ImageView = findViewById<ImageView>(R.id.mypageicon_black1)
+        iconImageView4.setOnClickListener {
+            val intent = Intent(this, mypage_activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView5: ImageView = findViewById<ImageView>(R.id.rouletteicon_black1)
+        iconImageView5.setOnClickListener {
+            val intent = Intent(this, foodrouletteactivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun startSpinAnimation() {

@@ -5,6 +5,8 @@
 
 
 	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
 	<application
 		android:allowBackup="true"
@@ -29,11 +31,6 @@
 			android:exported="true" />
 
 		<activity
-			android:name=".MainActivity"
-			android:label="Home"
-			android:exported="true" />
-
-		<activity
 			android:name=".mainpage_x_activity"
 			android:label="Main"
 			android:exported="true" />
@@ -44,7 +41,7 @@
 			android:exported="true" />
 
 		<activity
-			android:name=".recipebook2_xactivity"
+			android:name=".recipebook2activity"
 			android:label="recipebook2"
 			android:exported="true" />
 
@@ -59,94 +56,80 @@
 			android:exported="true" />
 
 		<activity
+			android:name="profileeditactivity"
+			android:label="mypage"
+			android:exported="true" />
+
+		<activity
 			android:name=".foodrouletteactivity"
 			android:label="foodroulette"
 			android:exported="true" />
 
 		<activity
 			android:name=".memberjoinsuccesactivity"
-			android:label="회원가입 성공 페이지"
+			android:label="회원가입 성공!"
 			android:exported="true" />
 
 
 		<activity
 			android:name=".recipeactivity1"
-			android:label="레시피페이지1"
+			android:label="recipe_milk"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity2"
-			android:label="레시피페이지2"
+			android:label="recipe_cheese"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity3"
-			android:label="레시피페이지3"
+			android:label="recipe_chicken"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity4"
-			android:label="레시피페이지4"
+			android:label="recipe_meat"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity5"
-			android:label="레시피페이지5"
+			android:label="recipe_avocado"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity6"
-			android:label="레시피페이지6"
+			android:label="recipe_potato"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity7"
-			android:label="레시피페이지7"
+			android:label="recipe_vegetable"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity8"
-			android:label="레시피페이지8"
+			android:label="recipe_sweet potato"
 			android:exported="true" />
+
 		<activity
 			android:name=".recipeactivity9"
-			android:label="레시피페이지9"
+			android:label="recipe_cucumber"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity10"
-			android:label="레시피페이지10"
+			android:label="recipe_egg"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity11"
-			android:label="레시피페이지11"
+			android:label="recipe_mushroom"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity12"
-			android:label="레시피페이지12"
+			android:label="recipe_apple"
 			android:exported="true" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	</application>

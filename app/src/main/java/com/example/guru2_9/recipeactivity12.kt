@@ -23,7 +23,7 @@ class recipeactivity12 : AppCompatActivity() {
         setContentView(R.layout.recipebook2_12x)
 
         val appleImageView = findViewById<ImageView>(R.id.apple1)
-       appleImageView.setOnClickListener {
+        appleImageView.setOnClickListener {
             val recipeLinkUrl = "https://blog.naver.com/hz__00/223167213649"
             val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
             startActivity(linkIntent)
@@ -42,14 +42,5 @@ class recipeactivity12 : AppCompatActivity() {
             val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
             startActivity(linkIntent)
         }
-
-
-
-
-
     }
 }
-
-
-
-

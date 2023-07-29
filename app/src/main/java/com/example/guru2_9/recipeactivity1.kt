@@ -16,8 +16,6 @@ class recipeactivity1 : AppCompatActivity() {
 
     }
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.recipebook2_1x)
@@ -43,11 +41,6 @@ class recipeactivity1 : AppCompatActivity() {
             val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
             startActivity(linkIntent)
         }
-
-
-
-
-
     }
 }
 

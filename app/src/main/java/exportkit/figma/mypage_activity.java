@@ -58,9 +58,6 @@ import com.example.guru2_9.R;
 		_bg__mypage = (View) findViewById(R.id._bg__mypage);
 		ellipse_3 = (View) findViewById(R.id.ellipse_3);
 
-		t50ttt = (TextView) findViewById(R.id.t50ttt);
-
-		t48ttt = (TextView) findViewById(R.id.t48ttt);
 		backicon8 = (ImageView) findViewById(R.id.backicon8);
 
 		rectangle_34 = (View) findViewById(R.id.rectangle_34);

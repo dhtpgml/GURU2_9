@@ -25,7 +25,6 @@ class loginactivity : AppCompatActivity() {
         val buttonLogin = findViewById<Button>(R.id.rectangle_3)
         val buttonjoin = findViewById<Button>(R.id.t4ttt)
 
-
         //리스너 등록
         buttonLogin.setOnClickListener {
             val email = editTextEmail.text.toString()
@@ -41,8 +40,7 @@ class loginactivity : AppCompatActivity() {
                         //토스트 메시지 띄우고, 메인페이지(홈)으로 화면 전환
                         val intent = Intent(this, mainpage_x_activity::class.java)
                         startActivity(intent)
-                    }
-                    else {
+                    } else {
                         // 로그인 실패한 경우
                         Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
                     }

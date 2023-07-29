@@ -23,37 +23,40 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
-			<View   android:id="@+id/_bg__recipebook2_8x"
-				android:background="@drawable/_bg__recipebook2_x_shape"
+			<View
+				android:id="@+id/_bg__recipebook2_8x"
+				android:layout_width="420dp"
+				android:layout_height="698dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
-				android:layout_width="360dp"
-				android:layout_height="698dp" />
+				android:background="@drawable/_bg__recipebook2_x_shape" />
 
 			<ImageView
 				android:id="@+id/mush1"
 				android:layout_width="320dp"
 				android:layout_height="160dp"
-				android:layout_marginStart="20dp"
-				android:layout_marginTop="134dp"
+				android:layout_marginStart="45dp"
+				android:layout_marginTop="125dp"
 				android:background="@drawable/mush1"
 				android:clickable="true" />
 
-			<ImageView   android:id="@+id/mush2"
+			<ImageView
+				android:id="@+id/mush2"
+				android:layout_width="320dp"
+				android:layout_height="160dp"
+				android:layout_marginStart="45dp"
+				android:layout_marginTop="305dp"
 				android:background="@drawable/mush2"
-				android:layout_marginStart="20dp"
-				android:layout_marginTop="324dp"
-				android:layout_width="320dp"
-				android:layout_height="160dp"
-				android:clickable="true"/>
+				android:clickable="true" />
 
-			<ImageView   android:id="@+id/mush3"
-				android:background="@drawable/mush3"
-				android:layout_marginStart="20dp"
-				android:layout_marginTop="503dp"
+			<ImageView
+				android:id="@+id/mush3"
 				android:layout_width="320dp"
 				android:layout_height="160dp"
-				android:clickable="true"/>
+				android:layout_marginStart="45dp"
+				android:layout_marginTop="480dp"
+				android:background="@drawable/mush3"
+				android:clickable="true" />
 
 			<ImageView android:id="@+id/backicon6"
 				android:src="@drawable/backicon6"
@@ -65,41 +68,44 @@
 				android:clickable="true"
 				android:onClick="onBackIconClick"/>
 
-			<TextView android:id="@+id/t43ttt"
-				android:fontFamily="Noto Sans"
-				android:textStyle="bold"
-				android:textSize="16sp"
-				android:textColor="@color/t43ttt_color"
-				android:layout_marginLeft="28dp"
-				android:layout_marginTop="101dp"
+			<TextView
+				android:id="@+id/t43ttt"
 				android:layout_width="99dp"
 				android:layout_height="33dp"
-				android:text="@string/t43ttt_string"
-				/>
+				android:layout_marginLeft="40dp"
+				android:layout_marginTop="80dp"
+				android:fontFamily="Noto Sans"
+				android:text="버섯"
+				android:textColor="@color/t43ttt_color"
+				android:textSize="16sp"
+				android:textStyle="bold" />
 
-			<ImageView android:id="@+id/bookmark9"
-				android:src="@drawable/bookmark9"
+			<ImageView
+				android:id="@+id/bookmark9"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_marginStart="330dp"
+				android:layout_marginTop="250dp"
 				android:contentDescription="bookmark9"
-				android:layout_marginStart="298dp"
-				android:layout_marginTop="259dp"
-				android:layout_width="24dp"
-				android:layout_height="24dp" />
+				android:src="@drawable/bookmark9" />
 
-			<ImageView android:id="@+id/bookmark8"
-				android:src="@drawable/bookmark8"
+			<ImageView
+				android:id="@+id/bookmark8"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_marginStart="330dp"
+				android:layout_marginTop="430dp"
 				android:contentDescription="bookmark8"
-				android:layout_marginStart="298dp"
-				android:layout_marginTop="445dp"
-				android:layout_width="24dp"
-				android:layout_height="24dp" />
+				android:src="@drawable/bookmark8" />
 
-			<ImageView android:id="@+id/bookmark7"
-				android:src="@drawable/bookmark7"
-				android:contentDescription="bookmark7"
-				android:layout_marginStart="298dp"
-				android:layout_marginTop="626dp"
+			<ImageView
+				android:id="@+id/bookmark7"
 				android:layout_width="24dp"
-				android:layout_height="24dp" />
+				android:layout_height="24dp"
+				android:layout_marginStart="330dp"
+				android:layout_marginTop="610dp"
+				android:contentDescription="bookmark7"
+				android:src="@drawable/bookmark7" />
 
 		</RelativeLayout>
 

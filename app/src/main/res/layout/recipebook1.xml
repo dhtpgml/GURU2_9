@@ -25,7 +25,7 @@
 
 			<View
 				android:id="@+id/_bg__recipebook1"
-				android:layout_width="360dp"
+				android:layout_width="420dp"
 				android:layout_height="640dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
@@ -42,282 +42,343 @@
 				android:onClick="onBackIconClick"
 				android:src="@drawable/backicon5" />
 
-			<TextView android:id="@+id/f12ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="59dp"
-				android:layout_marginTop="222dp"
+			<TextView
+				android:id="@+id/f12ttt"
 				android:layout_width="40dp"
 				android:layout_height="24dp"
-				android:text="@string/f12ttt_string"
-				/>
-
-			<TextView android:id="@+id/f11ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="169dp"
+				android:layout_marginLeft="70dp"
 				android:layout_marginTop="222dp"
+				android:fontFamily="Noto Sans"
+				android:text="사과"
+				android:textColor="@color/f12ttt_color"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f11ttt"
 				android:layout_width="40dp"
 				android:layout_height="24dp"
-				android:text="@string/f11ttt_string"
-				/>
-
-			<TextView android:id="@+id/f10ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="276dp"
+				android:layout_marginLeft="195dp"
 				android:layout_marginTop="222dp"
+				android:fontFamily="Noto Sans"
+				android:text="달걀"
+				android:textColor="@color/f12ttt_color"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f10ttt"
 				android:layout_width="40dp"
 				android:layout_height="24dp"
-				android:text="@string/f10ttt_string"
-				/>
-
-			<TextView android:id="@+id/f9ttt"
+				android:layout_marginLeft="320dp"
+				android:layout_marginTop="222dp"
 				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
+				android:text="버섯"
 				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="59dp"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f9ttt"
+				android:layout_width="40dp"
+				android:layout_height="24dp"
+				android:layout_marginLeft="70dp"
 				android:layout_marginTop="350dp"
-				android:layout_width="40dp"
-				android:layout_height="24dp"
-				android:text="@string/f9ttt_string"
-				/>
-
-			<TextView android:id="@+id/f8ttt"
 				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
+				android:text="오이"
 				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="163dp"
-				android:layout_marginTop="350dp"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f8ttt"
 				android:layout_width="51dp"
 				android:layout_height="24dp"
-				android:text="@string/f8ttt_string"
-				/>
-
-			<TextView android:id="@+id/f7ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="276dp"
+				android:layout_marginLeft="190dp"
 				android:layout_marginTop="350dp"
+				android:fontFamily="Noto Sans"
+				android:text="고구마"
+				android:textColor="@color/f12ttt_color"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f7ttt"
 				android:layout_width="40dp"
 				android:layout_height="24dp"
-				android:text="@string/f7ttt_string"
-				/>
-
-			<TextView android:id="@+id/f6ttt"
+				android:layout_marginLeft="320dp"
+				android:layout_marginTop="350dp"
 				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
+				android:text="야채"
 				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="59dp"
-				android:layout_marginTop="478dp"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f6ttt"
 				android:layout_width="40dp"
 				android:layout_height="24dp"
-				android:text="@string/f6ttt_string"
-				/>
-
-			<TextView android:id="@+id/f5ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="158dp"
+				android:layout_marginLeft="70dp"
 				android:layout_marginTop="478dp"
+				android:fontFamily="Noto Sans"
+				android:text="감자"
+				android:textColor="@color/f12ttt_color"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f5ttt"
 				android:layout_width="62dp"
 				android:layout_height="24dp"
-				android:text="@string/f5ttt_string"
-				/>
-
-			<TextView android:id="@+id/f4ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="268dp"
+				android:layout_marginLeft="180dp"
 				android:layout_marginTop="478dp"
+				android:fontFamily="Noto Sans"
+				android:text="아보카도"
+				android:textColor="@color/f12ttt_color"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f4ttt"
 				android:layout_width="62dp"
 				android:layout_height="24dp"
-				android:text="@string/f4ttt_string"
-				/>
-
-			<TextView android:id="@+id/f3ttt"
+				android:layout_marginLeft="315dp"
+				android:layout_marginTop="478dp"
 				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
+				android:text="고기"
 				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="54dp"
-				android:layout_marginTop="606dp"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f3ttt"
 				android:layout_width="51dp"
 				android:layout_height="24dp"
-				android:text="@string/f3ttt_string"
-				/>
-
-			<TextView android:id="@+id/f2ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="173dp"
+				android:layout_marginLeft="62dp"
 				android:layout_marginTop="606dp"
+				android:fontFamily="Noto Sans"
+				android:text="닭고기"
+				android:textColor="@color/f12ttt_color"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f2ttt"
 				android:layout_width="40dp"
 				android:layout_height="24dp"
-				android:text="@string/f2ttt_string"
-				/>
-
-			<TextView android:id="@+id/f1ttt"
-				android:fontFamily="Noto Sans"
-				android:textSize="12sp"
-				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="279dp"
+				android:layout_marginLeft="195dp"
 				android:layout_marginTop="606dp"
+				android:fontFamily="Noto Sans"
+				android:text="치즈"
+				android:textColor="@color/f12ttt_color"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/f1ttt"
 				android:layout_width="40dp"
 				android:layout_height="24dp"
-				android:text="@string/f1ttt_string"
-				/>
-
-			<TextView android:id="@+id/t41ttt"
+				android:layout_marginLeft="320dp"
+				android:layout_marginTop="606dp"
 				android:fontFamily="Noto Sans"
-				android:textStyle="bold"
-				android:textSize="16sp"
+				android:text="우유"
 				android:textColor="@color/f12ttt_color"
-				android:layout_marginLeft="28dp"
-				android:layout_marginTop="101dp"
-				android:layout_width="66dp"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/t41ttt"
+				android:layout_width="200dp"
 				android:layout_height="33dp"
-				android:text="@string/t41ttt_string"
-				/>
+				android:layout_marginLeft="35dp"
+				android:layout_marginTop="80dp"
+				android:fontFamily="Noto Sans"
+				android:text="요리 재료를 선택하세요"
+				android:textColor="@color/f12ttt_color"
+				android:textSize="16sp"
+				android:textStyle="bold" />
 
-			<ImageView android:id="@+id/__img___food12"
-				android:src="@drawable/__img___food12"
+			<ImageView
+				android:id="@+id/__img___food12"
+				android:layout_width="88dp"
+				android:layout_height="88dp"
+				android:layout_marginStart="35dp"
+				android:layout_marginTop="132dp"
+				android:clickable="true"
 				android:contentDescription="__img___food12"
-				android:layout_marginStart="27dp"
-				android:layout_marginTop="132dp"
+				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food12"
+				android:tag="category12" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+
+			<ImageView
+				android:id="@+id/__img___food11"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="285dp"
+				android:layout_marginTop="132dp"
 				android:clickable="true"
-				android:onClick="openRecipeList"
-				android:tag="category12"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
-
-			<ImageView android:id="@+id/__img___food11"
-				android:src="@drawable/__img___food10"
 				android:contentDescription="__img___food11"
-				android:layout_marginStart="244dp"
-				android:layout_marginTop="132dp"
+				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food10"
+				android:tag="category11" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+
+			<ImageView
+				android:id="@+id/__img___food10"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="160dp"
+				android:layout_marginTop="132dp"
 				android:clickable="true"
-				android:onClick="openRecipeList"
-				android:tag="category11"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
-
-			<ImageView android:id="@+id/__img___food10"
-				android:src="@drawable/__img___food11"
 				android:contentDescription="__img___food10"
-				android:layout_marginStart="137dp"
-				android:layout_marginTop="132dp"
+				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food11"
+				android:tag="category10" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+
+			<ImageView
+				android:id="@+id/__img___food9"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="35dp"
+				android:layout_marginTop="260dp"
 				android:clickable="true"
-				android:onClick="openRecipeList"
-				android:tag="category10"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
-
-			<ImageView android:id="@+id/__img___food9"
-				android:src="@drawable/__img___food9"
 				android:contentDescription="__img___food9"
-				android:layout_marginStart="27dp"
-				android:layout_marginTop="260dp"
+				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food9"
+				android:tag="category9" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+
+			<ImageView
+				android:id="@+id/__img___food8"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="160dp"
+				android:layout_marginTop="260dp"
 				android:clickable="true"
-				android:onClick="openRecipeList"
-				android:tag="category9"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
-
-			<ImageView android:id="@+id/__img___food8"
-				android:src="@drawable/__img___food8"
 				android:contentDescription="__img___food8"
-				android:layout_marginStart="137dp"
-				android:layout_marginTop="260dp"
+				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food8"
+				android:tag="category8" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+
+			<ImageView
+				android:id="@+id/__img___food7"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="285dp"
+				android:layout_marginTop="260dp"
 				android:clickable="true"
-				android:onClick="openRecipeList"
-				android:tag="category8"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
-
-			<ImageView android:id="@+id/__img___food7"
-				android:src="@drawable/__img___food7"
 				android:contentDescription="__img___food7"
-				android:layout_marginStart="244dp"
-				android:layout_marginTop="260dp"
-				android:layout_width="88dp"
-				android:layout_height="88dp"
-				android:clickable="true"
 				android:onClick="openRecipeList"
-				android:tag="category7"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+				android:src="@drawable/__img___food7"
+				android:tag="category7" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
-			<ImageView android:id="@+id/__img___food6"
-				android:src="@drawable/__img___food6"
-				android:contentDescription="__img___food6"
-				android:layout_marginStart="27dp"
-				android:layout_marginTop="388dp"
+			<ImageView
+				android:id="@+id/__img___food6"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="35dp"
+				android:layout_marginTop="388dp"
 				android:clickable="true"
+				android:contentDescription="__img___food6"
 				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food6"
 				android:tag="category6" /><!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
-			<ImageView android:id="@+id/__img___food5"
-				android:src="@drawable/__img___food5"
+			<ImageView
+				android:id="@+id/__img___food5"
+				android:layout_width="88dp"
+				android:layout_height="88dp"
+				android:layout_marginStart="160dp"
+				android:layout_marginTop="388dp"
+				android:clickable="true"
 				android:contentDescription="__img___food5"
-				android:layout_marginStart="137dp"
-				android:layout_marginTop="388dp"
+				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food5"
+				android:tag="category5" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+
+			<ImageView
+				android:id="@+id/__img___food4"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="285dp"
+				android:layout_marginTop="388dp"
 				android:clickable="true"
-				android:onClick="openRecipeList"
-				android:tag="category5"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
-
-			<ImageView android:id="@+id/__img___food4"
-				android:src="@drawable/__img___food4"
 				android:contentDescription="__img___food4"
-				android:layout_marginStart="244dp"
-				android:layout_marginTop="388dp"
+				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food4"
+				android:tag="category4" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+
+			<ImageView
+				android:id="@+id/__img___food3"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="35dp"
+				android:layout_marginTop="516dp"
 				android:clickable="true"
-				android:onClick="openRecipeList"
-				android:tag="category4"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
-
-			<ImageView android:id="@+id/__img___food3"
-				android:src="@drawable/__img___food3"
 				android:contentDescription="__img___food3"
-				android:layout_marginStart="27dp"
-				android:layout_marginTop="516dp"
+				android:onClick="openRecipeList"
+				android:src="@drawable/__img___food3"
+				android:tag="category3" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+
+			<ImageView
+				android:id="@+id/__img___food2"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="160dp"
+				android:layout_marginTop="516dp"
 				android:clickable="true"
-				android:onClick="openRecipeList"
-				android:tag="category3"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
-
-			<ImageView android:id="@+id/__img___food2"
-				android:src="@drawable/__img___food2"
 				android:contentDescription="__img___food2"
-				android:layout_marginStart="137dp"
-				android:layout_marginTop="516dp"
-				android:layout_width="88dp"
-				android:layout_height="88dp"
-				android:clickable="true"
 				android:onClick="openRecipeList"
-				android:tag="category2"/> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
+				android:src="@drawable/__img___food2"
+				android:tag="category2" /> <!-- 각 레시피가 속한 카테고리 태그 지정 -->/>
 
-			<ImageView android:id="@+id/__img___food1"
-				android:src="@drawable/__img___food1"
-				android:contentDescription="__img___food1"
-				android:layout_marginStart="244dp"
-				android:layout_marginTop="516dp"
+			<ImageView
+				android:id="@+id/__img___food1"
 				android:layout_width="88dp"
 				android:layout_height="88dp"
+				android:layout_marginStart="285dp"
+				android:layout_marginTop="516dp"
 				android:clickable="true"
+				android:contentDescription="__img___food1"
 				android:onClick="openRecipeList"
-				android:tag="category1"
-				/>
+				android:src="@drawable/__img___food1"
+				android:tag="category1" />
+
+			<ImageView
+				android:id="@+id/homeicon_black3"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:layout_marginStart="25dp"
+				android:layout_marginTop="660dp"
+				android:clickable="true"
+				android:contentDescription="homeicon_black"
+				android:src="@drawable/homeicon_black" />
+
+			<ImageView
+				android:id="@+id/mypageicon_black3"
+				android:layout_width="34dp"
+				android:layout_height="34dp"
+				android:layout_marginStart="340dp"
+				android:layout_marginTop="660dp"
+				android:clickable="true"
+				android:contentDescription="mypageicon_black"
+				android:src="@drawable/mypageicon_black" />
+
+			<ImageView
+				android:id="@+id/rouletteicon_black3"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:layout_marginStart="185dp"
+				android:layout_marginTop="660dp"
+				android:clickable="true"
+				android:contentDescription="rouletteicon_black"
+				android:src="@drawable/rouletteicon_black" />
+
+			<ImageView
+				android:id="@+id/shoppinglisticon_black3"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:layout_marginStart="265dp"
+				android:layout_marginTop="660dp"
+				android:clickable="true"
+				android:contentDescription="shoppinglisticon_black"
+				android:src="@drawable/shoppinglisticon_black" />
+
+			<ImageView
+				android:id="@+id/recipebookicon_black3"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:layout_marginStart="105dp"
+				android:layout_marginTop="660dp"
+				android:clickable="true"
+				android:contentDescription="recipebookicon_black"
+				android:src="@drawable/recipebookicon_black" />
 
 		</RelativeLayout>
 

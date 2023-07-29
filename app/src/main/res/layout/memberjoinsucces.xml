@@ -23,20 +23,22 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
-			<View   android:id="@+id/_bg__memberjoinsucces"
-				android:background="@drawable/_bg__memberjoinsucces_shape"
+			<View
+				android:id="@+id/_bg__memberjoinsucces"
+				android:layout_width="420dp"
+				android:layout_height="640dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
-				android:layout_width="360dp"
-				android:layout_height="640dp" />
+				android:background="@drawable/_bg__memberjoinsucces_shape" />
 
-			<ImageView android:id="@+id/__img___character"
-				android:src="@drawable/__img___character"
-				android:contentDescription="__img___character"
-				android:layout_marginStart="74dp"
-				android:layout_marginTop="150dp"
+			<ImageView
+				android:id="@+id/__img___character"
 				android:layout_width="211dp"
-				android:layout_height="291dp" />
+				android:layout_height="291dp"
+				android:layout_marginStart="95dp"
+				android:layout_marginTop="150dp"
+				android:contentDescription="__img___character"
+				android:src="@drawable/__img___character" />
 
 			<Button
 				android:id="@+id/loginback"
@@ -44,11 +46,11 @@
 				android:layout_height="wrap_content"
 				android:layout_alignParentStart="true"
 				android:layout_alignParentTop="true"
-				android:layout_marginStart="70dp"
-				android:layout_marginTop="455dp"
+				android:layout_marginStart="95dp"
+				android:layout_marginTop="465dp"
 				android:background="@color/ellipse_2_color"
 				android:text="로그인 페이지로 이동하세요"
-				android:textColor="#5D4037"
+				android:textColor="@color/white"
 				android:textStyle="bold" />
 
 		</RelativeLayout>

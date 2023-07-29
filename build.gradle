@@ -17,8 +17,11 @@ buildscript {
 
 allprojects {
     repositories {
+        // Google Maven 저장소 추가
         google()
         jcenter()
+        // 기존 저장소
+        mavenCentral()
     }
 }
 

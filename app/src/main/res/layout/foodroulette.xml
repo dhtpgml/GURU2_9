@@ -76,7 +76,7 @@
 				android:layout_width="35dp"
 				android:layout_height="35dp"
 				android:layout_marginStart="25dp"
-				android:layout_marginTop="560dp"
+				android:layout_marginTop="585dp"
 				android:clickable="true"
 				android:contentDescription="homeicon_black"
 				android:src="@drawable/homeicon_black" />
@@ -86,7 +86,7 @@
 				android:layout_width="34dp"
 				android:layout_height="34dp"
 				android:layout_marginStart="340dp"
-				android:layout_marginTop="560dp"
+				android:layout_marginTop="585dp"
 				android:clickable="true"
 				android:contentDescription="mypageicon_black"
 				android:src="@drawable/mypageicon_black" />
@@ -96,7 +96,7 @@
 				android:layout_width="35dp"
 				android:layout_height="35dp"
 				android:layout_marginStart="185dp"
-				android:layout_marginTop="560dp"
+				android:layout_marginTop="585dp"
 				android:clickable="true"
 				android:contentDescription="rouletteicon_black"
 				android:src="@drawable/rouletteicon_black" />
@@ -106,7 +106,7 @@
 				android:layout_width="35dp"
 				android:layout_height="35dp"
 				android:layout_marginStart="265dp"
-				android:layout_marginTop="560dp"
+				android:layout_marginTop="585dp"
 				android:clickable="true"
 				android:contentDescription="shoppinglisticon_black"
 				android:src="@drawable/shoppinglisticon_black" />
@@ -116,7 +116,7 @@
 				android:layout_width="35dp"
 				android:layout_height="35dp"
 				android:layout_marginStart="105dp"
-				android:layout_marginTop="560dp"
+				android:layout_marginTop="585dp"
 				android:clickable="true"
 				android:contentDescription="recipebookicon_black"
 				android:src="@drawable/recipebookicon_black" />
